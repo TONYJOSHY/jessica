@@ -1,0 +1,28 @@
+.side-bar{
+    width: 250px;
+    height: 100%;
+    top: 80px;
+    border-right: 1px solid var(--border-color);
+    position: fixed;
+    background: white;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+}
+.header-font15px{
+  font-weight: 450;
+  font-size: 13px;
+  line-height: 19px;
+}
+.notify-img{
+  position: relative;
+  bottom: 7px;
+  left: 0px;
+}
+.notify{
+  position: relative;
+  bottom: 29px;
+  left: 40px;
+  color: #FFFFFF;
+}

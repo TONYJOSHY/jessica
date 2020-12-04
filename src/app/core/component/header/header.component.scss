@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+}
+.row-width{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+.list{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 12px;
+}
+.list li{
+  display: inline;
+  position: relative;
+  top: 30px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.listActive{
+    color: var(--dark);
+}
+.notify-img{
+  position: absolute;
+  bottom: 10px;
+}
+.notify{
+  position: absolute;
+  left: 37px;
+  bottom: 0px;
+  color: #FFFFFF;
+}
+.hamberger{
+  color: var(--secondary);
+  cursor: pointer;
+}
+.paddingZero{
+  padding-right: 0px;
+}
+.avatar-img{
+  object-fit: contain;
+  float: right;
+  cursor: pointer;
+}
+.avaHead-color{
+  color: #545454;
+  cursor: pointer;
+  margin-bottom: .5rem;
+  margin-top: .7rem;
+}
+.avaBody-color{
+  color: #888888;
+  cursor: pointer;
+}

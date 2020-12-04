@@ -1,0 +1,43 @@
+<div class="header py-4">
+  <div class="container-fluid">
+    <div class="row align-items-center row-width">
+      <div class="col-1">
+        <img src="../../../../assets/images/logo.png" alt="farmLogo" class="logo">
+      </div>
+      <div class="col-8 d-none d-md-block">
+        <ul class="list">
+          <li class="text-sm" routerLinkActive="listActive" >
+            <a routerLink="/">Home</a>
+          </li>
+          <li class="font-normal text-sm">Products</li>
+          <li class="font-normal text-sm">Account</li>
+          <li class="font-normal text-sm">Order history</li>
+          <li class="font-normal text-sm">Cart
+            <img src="../../../../assets/images/notifyRed.png" alt="notifyCart" class="notify-img">
+            <p class="font-normal text-sm notify">1</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-3 d-none d-md-block my-auto">
+        <div class="row align-items-center">
+          <div class="offset-lg-2 col-lg-2 col-3 d-flex align-items-center paddingZero">
+            <img src="../../../../assets/images/avatar-img.png" alt="avatar-img" class="avatar-img">
+          </div>
+          <div class="col-9 col-lg-8 paddingZero">
+            <p class="font-normal text-sm avaHead-color">Jessica James</p>
+            <p class="font-normal text-sm avaBody-color">Kochi, Ernakulam</p>
+          </div>
+        </div>
+      </div>
+      <div class="offset-9 offset-sm-10 col-1 d-block d-md-none">
+        <span class="material-icons hamberger" (click)="toggleNavbar()">table_rows</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="showNavbar">
+  <app-side-bar></app-side-bar>
+</div>
+
+
+
